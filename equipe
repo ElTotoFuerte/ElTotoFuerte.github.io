@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="index"><img class="nav__logo" src="images/logo.png" alt=""></a>
+            <a href="" class="nav__mobile"></a>
+            <div class="nav__items">
+                <a class="nav__item" href="index">Accueil</a>
+                <a class="nav__item" href="projets">Projets</a>
+                <a class="nav__item" href="recherche">Recherche</a>
+                <a class="nav__item" href="equipe">Equipe</a>
+                <a class="nav__item" href="laboratoire">Laboratoire</a>
+                <a class="nav__item" href="dons">Dons</a>
+                <a class="nav__language" href=""><img src="images/internet.png">EN</a>
+            </div>
+        </div>
+    </header>
+    <section class="grid">
+        <div class="grid__container">
+            <div class="grid__text-container">
+            <h2 class="grid__title title h2">Notre équipe</h2>
+            <h3 class="grid__title-secondary">Les Néphronté(e)s actuel(le)s</h3>
+            </div>
+            <div class="grid__grid-container--about">
+                <div class="grid__cell--about">
+                    <div class="grid__cell-icon--about"><img width="260" height="260" src="images/Srishti.jpeg" alt=""></div>
+                    <div class="grid__cell-text">
+                    <h4 class="grid__cell-title--about">Srishti</h4>
+                    <p class="grid__cell-subtitle--about">
+                        ÉTUDIANTE EN THÈSE
+                    </p>
+                    <p class="grid__cell-paragraph--about">
+                        Je suis Srishti, originaire d'Inde. Ayant obtenu ma licence et ma maîtrise en biotechnologie, je suis désormais doctorante au laboratoire du Dr. Alexandra Cambier au CHU Sainte Justine au Canada. Passionnée par l'immunologie, je m'engage à comprendre les mécanismes immunitaires pour contribuer à l'avancement médical, notamment dans la néphropathie IgA. De la compréhension moléculaire des réponses immunitaires à leur impact sur la santé, je cherche à combler le fossé entre théorie et pratique. J'explore également de nouvelles voies thérapeutiques pour révolutionner les soins de santé, avec une vision de traduire les découvertes scientifiques en bénéfices tangibles pour la société.
+                    </p>
+                    </div>
+                </div>
+                <div class="grid__cell--about">
+                    <div class="grid__cell-icon--about"><img width="260" height="260" src="images/Lison.jpeg" alt=""></div>
+                    <div class="grid__cell-text">
+                    <h4 class="grid__cell-title--about">Lison</h4>
+                    <p class="grid__cell-subtitle--about">
+                        ÉTUDIANTE EN THÈSE
+                    </p>
+                    <p class="grid__cell-paragraph--about">
+                        Je m’appelle Lison Lachize, j’ai 22 ans, et je suis actuellement en stage en master dans l’équipe de recherche du Dr Alexandra Cambier au centre de recherche du CHU Sainte Justine. Française, j’ai étudié à l’Université Jean Monnet de Saint Etienne où j’ai décroché mon diplôme de licence en Biologie Cellulaire et Physiologie en 2021. J’ai ensuite poursuivi à Lyon en master de Biologie Moléculaire et Cellulaire à l’Université Claude Bernard Lyon 1. J’effectue en ce moment ma deuxième et dernière année de master avec une spécialité en Immunologie, Immunopathologie et Immunothérapie. Je travaille dans le laboratoire sur les TNF families dans la néphropathie à IgA.
+                    </p>
+                    </div>
+                </div>
+                <div class="grid__cell--about">
+                    <div class="grid__cell-icon--about"><img width="260" height="260" src="images/Diane.jpeg" alt=""></div>
+                    <div class="grid__cell-text">
+                    <h4 class="grid__cell-title--about">Diane</h4>
+                    <p class="grid__cell-subtitle--about">
+                        ÉTUDIANTE EN MAÎTRISE
+                    </p>
+                    <p class="grid__cell-paragraph--about">
+                        Je suis Diane Leenhardt, française de 21 ans résidant au Canada. Diplômée de l’Université Concordia en Biologie, spécialisée en Sciences, j'ai vécu aux États-Unis pendant sept ans, élargissant mes horizons universitaires et culturels. Mon parcours a renforcé ma passion pour l’immunologie, captivée par son rôle crucial dans le traitement des maladies auto-immunes et la prévention des problèmes de santé émergents. Actuellement en stage au CHU Sainte-Justine, je travaille sur l'identification des biomarqueurs de la maladie Henoch-Schönlein Purpura. Je souhaite obtenir des résultats concluants pour contribuer à l’avancement de la recherche en immunologie et améliorer les solutions médicales.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__grid-container--about-2">
+                <div class="grid__cell--about-2">
+                    <div class="grid__cell-icon--about-2"><img width="444" height="444" src="images/Cambier.jpeg" alt=""></div>
+                    <div class="grid__cell-text--about-2">
+                    <h4 class="grid__cell-title--about-2">Pr. Alexandra CAMBIER</h4>
+                    <p class="grid__cell-subtitle--about">
+                        FONDATRICE, MD-PhD
+                    </p>
+                    <p class="grid__cell-paragraph--about">
+                        J’ai complété ma formation de pédiatre et de néphrologue pédiatrique à l’Université de Paris en 2018. J’ai ensuite réalisé mon clinicat en néphrologique pédiatrique et transplantation rénale à l’Hôpital Robert Debré à Paris. J’ai obtenu une thèse de science à l’École doctorale Physiologie, Physiopathologie et Thérapeutique, Paris Diderot. Durant cette thèse, j’ai réalisé un travail sur le rôle fondamental du CD89 dans la néphropathie à IgA de l’enfant à l’Hôpital Bichat (laboratoire Inflamex Inserm 1149) sous la supervision du Pr Renato Monteiro. J’ai aussi travaillé sur le rôle des variants du collagène dans la néphropathie à IgA avec le Pr Laurent Mesnard à l’Université Sorbonne (Laboratoire UMR_S 1155). Ma recherche se penche sur les spécificités cliniques de la néphropathie à IgA de l’enfant, mais aussi sur l’intérêt de biomarqueurs immuns pour le diagnostic et le pronostic de la maladie ainsi que l’impact des variants génétiques dans la maladie. 
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+      </section>
+      <section class="grid">
+        <div class="grid__container">
+            <div class="grid__text-container">
+            <h3 class="grid__title-secondary">Les Néphronté(e)s passé(e)s</h3>
+            </div>
+            <div class="grid__grid-container--about">
+            <div class="grid__cell--about">
+                <div class="grid__cell-icon--about"><img width="260" height="260" src="images/Zoé.jpeg" alt=""></div>
+                <div class="grid__cell-text">
+                <h4 class="grid__cell-title--about">Zoé</h4>
+                <p class="grid__cell-subtitle--about">
+                    ÉTUDIANTE
+                </p>
+                <p class="grid__cell-paragraph--about">
+                    Je suis Zoé, étudiante en 3ème année d’école d’ingénieur en biologie, en France. Envisageant la filière Recherche et Développement en 4ème année, je vise à travailler dans le domaine médical. J'ai postulé dans le laboratoire du Dr Cambier pour découvrir la recherche de près. Attirée par la recherche fondamentale, j'apprécie la démarche de chercher, tester des hypothèses, trouver des résultats, et itérer sans cesse. En recherche médicale, l'essentiel est d'avancer dans la compréhension et le traitement des maladies. Mon stage sur la néphropathie à IgA illustre cet engagement à mieux comprendre et soigner des affections, notamment chez les enfants.
+                </p>
+                </div>
+            </div>
+            <div class="grid__cell--about">
+                <div class="grid__cell-icon--about"><img width="260" height="260" src="images/Andréa.jpeg" alt=""></div>
+                <div class="grid__cell-text">
+                <h4 class="grid__cell-title--about">Andréa</h4>
+                <p class="grid__cell-subtitle--about">
+                    ÉTUDIANTE
+                </p>
+                <p class="grid__cell-paragraph--about">
+                    Je suis Andréa, étudiante en sixième année de médecine en France, effectuant un stage dans le laboratoire du Dre Cambier pour valider mon Master. Attirée par la recherche pour enrichir ma pratique médicale, j'apprécie la réflexion constante et la volonté de comprendre les phénomènes et maladies. La recherche pédiatrique constitue un défi unique, nécessitant une approche différente de celle des adultes. La néphropathie à IgA illustre cette complexité, notamment au niveau de la thérapeutique non encore codifiée. Nous explorons également la physiopathologie de manière fondamentale, mettant en lumière son aspect immunologique. En résumé, la recherche offre un défi continu et passionnant.
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>  
+      </section>
+      <footer class="footer">
+        <div class="footer__container">
+            <a href="" class="footer__logo"><img src="images/logo.png" alt="logo"></a>
+            <div class="footer__sub-container">
+                <div class="footer__sitemap">
+                    <p class="footer__subtitle subtitle">Les Néphronté(e)s</p>
+                    <a href="index" class="footer__sitemap-link">Accueil</a>
+                    <a href="projets" class="footer__sitemap-link">Projets</a>
+                    <a href="recherche" class="footer__sitemap-link">Recherche</a>
+                    <a href="equipe" class="footer__sitemap-link">Equipe</a>
+                    <a href="laboratoire" class="footer__sitemap-link">Laboratoire</a>
+                    <a href="dons" class="footer__sitemap-link">Dons</a>
+                </div>
+                <div class="footer__social">
+                    <p class="footer__subtitle subtitle">Retrouvez-nous</p>
+                    <div class="footer__social-icons-container">
+                        <div class="footer__social-icons-subcontainer">
+                            <a href="https://www.linkedin.com/in/alexandra-cambier-8a0794226/" target="_blank" title="LinkedIn"><img class="footer__social-linked" src="images/linkedin.png" alt="LinkedIn logo"></a>
+                            <a href="https://www.instagram.com/les_nephrontees/" target="_blank" title="Instagram"><img class="footer__social-insta" src="images/instagram.png" alt="Instagram logo"></a>
+                            <a href="https://www.researchgate.net/profile/Alexandra-Cambier" target="_blank" title="Research Gate"><img class="footer__social-research" src="images/research-gate.png" alt="Research Gate logo"></a>
+                        </div>
+                        <a href="https://www.researchgate.net/profile/Alexandra-Cambier" target="_blank" title="Research Gate"><img class="footer__social-chu" src="images/CHU-ste-justine.png" alt="Research Gate logo"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+      </footer>
+</body>

@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +8,22 @@
 <body>
     <header>
         <div class="nav">
-            <img class="nav__logo" src="images/logo.png" alt="">
+            <a href="index"><img class="nav__logo" src="images/logo.png" alt=""></a>
             <a href="" class="nav__mobile"></a>
             <div class="nav__items">
-                <a class="nav__item" href="index.html">Accueil</a>
-                <a class="nav__item" href="">Projets</a>
-                <a class="nav__item" href="">Recherche</a>
-                <a class="nav__item" href="team.html">Equipe</a>
-                <a class="nav__item" href="">Laboratoire</a>
-                <a class="nav__item" href="">Dons</a>
+                <a class="nav__item" href="index">Accueil</a>
+                <a class="nav__item" href="projets">Projets</a>
+                <a class="nav__item" href="recherche">Recherche</a>
+                <a class="nav__item" href="equipe">Equipe</a>
+                <a class="nav__item" href="laboratoire">Laboratoire</a>
+                <a class="nav__item" href="dons">Dons</a>
                 <a class="nav__language" href=""><img src="images/internet.png">EN</a>
             </div>
         </div>
     </header>
     <section class="hero">
         <div class="hero__container">
-            <h1 class="hero__title">Les Néphrontés</h1>
+            <h1 class="hero__title">Les Néphronté(e)s</h1>
             <p class="hero__paragraph">Laboratoire du Dr. Alexandra Cambier pour l'amélioration de la prise en charge et du diagnostique de la Néphropathie à IGA chez l'enfant.</p>
         </div>
     </section>
@@ -84,8 +84,8 @@
             <div class="column__text-container">
                 <p class="subtitle">Notre équipe</p>
                 <h2>Une équipe pluridisciplinaire</h2>
-                <p class="paragraph">A travers nos travaux, nous nous efforçons d'améliorer l'état du diagnostique et la prise en charge de la Néphropatie à IGA chez l'enfant via la compréhension du rôle fondamental du CD89 et des variants du collagène.</p>
-                <a href="" class="cta">Rencontrer notre équipe</a>
+                <p class="paragraph">Chaque Néphronté(e) vient renforcer l'éventail d'expertise, de technique et de connaissance à disposition du laboratoire. Avec des collaborateurs du monde entier, nous profitons d'une culture riche et dynamique venant renforcer nos travaux.</p>
+                <a href="equipe" class="cta">Rencontrer notre équipe</a>
             </div>
             <div class="column__image-container">
                 <img class="column__image" src="images/IMG_9118.jpg" alt="Dessin d'une tablette avec des données patient dessus">
@@ -97,7 +97,7 @@
             <div class="column__text-container">
                 <p class="subtitle">Notre laboratoire</p>
                 <h2>Une équipe pluridisciplinaire</h2>
-                <p class="paragraph">A travers nos travaux, nous nous efforçons d'améliorer l'état du diagnostique et la prise en charge de la Néphropatie à IGA chez l'enfant via la compréhension du rôle fondamental du CD89 et des variants du collagène.</p>
+                <p class="paragraph">Situé au CHU Sainte-Justine, le laboratoire se veut être un éventail d'expertise, de technique et de connaissance à disposition de tous. Véritable lieu d'échange, la proximité avec l'hopital nous permet d’intégrer nos projets avec une recherche translationnelle forte.</p>
                 <a href="" class="cta">Visiter notre laboratoire</a>
             </div>
             <div class="column__image-container">
@@ -109,29 +109,33 @@
         <div class="banner__container">
             <h2 class="banner__title">Aidez-nous à soutenir la recherche</h2>
             <p class="banner__paragraph paragraph">Votre générosité peut faire la différence. Aidez-nous à avancer dans notre recherche sur la Néphropathie à IGA en faisant un don aujourd'hui.</p>
-            <p class="banner__cta cta">Faire un don</p>
+            <a href="dons" class="banner__cta cta">Faire un don</a>
         </div>
     </section>
     <footer class="footer">
         <div class="footer__container">
             <a href="" class="footer__logo"><img src="images/logo.png" alt="logo"></a>
-            <div class="footer__sitemap">
-                <p class="footer__subtitle subtitle">Néphrontés</p>
-                <a href="" class="footer__sitemap-link">Accueil</a>
-                <a href="" class="footer__sitemap-link">Projets</a>
-                <a href="" class="footer__sitemap-link">Recherche</a>
-                <a href="" class="footer__sitemap-link">Equipe</a>
-                <a href="" class="footer__sitemap-link">Laboratoire</a>
-                <a href="" class="footer__sitemap-link">Dons</a>
-            </div>
-            <div class="footer__sitemap">
-                <p class="footer__subtitle subtitle">Néphrontés</p>
-                <a href="" class="footer__sitemap-link">Accueil</a>
-                <a href="" class="footer__sitemap-link">Projets</a>
-                <a href="" class="footer__sitemap-link">Recherche</a>
-                <a href="" class="footer__sitemap-link">Equipe</a>
-                <a href="" class="footer__sitemap-link">Laboratoire</a>
-                <a href="" class="footer__sitemap-link">Dons</a>
+            <div class="footer__sub-container">
+                <div class="footer__sitemap">
+                    <p class="footer__subtitle subtitle">Les Néphronté(e)s</p>
+                    <a href="index" class="footer__sitemap-link">Accueil</a>
+                    <a href="projets" class="footer__sitemap-link">Projets</a>
+                    <a href="recherche" class="footer__sitemap-link">Recherche</a>
+                    <a href="equipe" class="footer__sitemap-link">Equipe</a>
+                    <a href="laboratoire" class="footer__sitemap-link">Laboratoire</a>
+                    <a href="dons" class="footer__sitemap-link">Dons</a>
+                </div>
+                <div class="footer__social">
+                    <p class="footer__subtitle subtitle">Retrouvez-nous</p>
+                    <div class="footer__social-icons-container">
+                        <div class="footer__social-icons-subcontainer">
+                            <a href="https://www.linkedin.com/in/alexandra-cambier-8a0794226/" target="_blank" title="LinkedIn"><img class="footer__social-linked" src="images/linkedin.png" alt="LinkedIn logo"></a>
+                            <a href="https://www.instagram.com/les_nephrontees/" target="_blank" title="Instagram"><img class="footer__social-insta" src="images/instagram.png" alt="Instagram logo"></a>
+                            <a href="https://www.researchgate.net/profile/Alexandra-Cambier" target="_blank" title="Research Gate"><img class="footer__social-research" src="images/research-gate.png" alt="Research Gate logo"></a>
+                        </div>
+                        <a href="https://www.researchgate.net/profile/Alexandra-Cambier" target="_blank" title="Research Gate"><img class="footer__social-chu" src="images/CHU-ste-justine.png" alt="Research Gate logo"></a>
+                    </div>
+                </div>
             </div>
         </div>
         <script src="index.js"></script>
