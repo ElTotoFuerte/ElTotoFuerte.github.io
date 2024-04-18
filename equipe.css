@@ -81,6 +81,7 @@
 
 .grid__cell--about-2 {
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 108px;
 }
@@ -103,8 +104,16 @@
     max-height: 260px;
 }
 
+.grid__cell-icon--about img {
+    border-radius: 16px;
+}
+
 .grid__cell-icon--about-2 {
     max-height: 549px;
+}
+
+.grid__cell-icon--about-2 img {
+    border-radius: 16px;
 }
 
 .grid__cell-text--about-2 {
@@ -167,7 +176,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
 }
 
 .grid__subtitle {
