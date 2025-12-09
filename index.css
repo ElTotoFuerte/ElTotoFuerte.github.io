@@ -632,3 +632,9 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+.column__container-projects .column__text-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
